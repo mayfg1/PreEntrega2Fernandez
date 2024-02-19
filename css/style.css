@@ -107,9 +107,50 @@ body {
 }
 
 
+/*especialidades*/
 
 
+.galeria-especialidades { 
+    font-weight: 300px;
+    font-size: 1.25rem;
+    color: black;
+    margin: 0 40px;
+    text-align:justify;
+}
+/*Turnos*/
 
+form {
+    width: 400px;
+    margin: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 
@@ -129,3 +170,5 @@ footer {
     position: relative; 
     margin-left: 20px;
 }
+
+
