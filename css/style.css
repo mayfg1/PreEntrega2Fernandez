@@ -1,23 +1,39 @@
-/* Agrega estilos personalizados aquí */
 body {
     margin: 0;
     padding: 0;
-    height: 100vh; /* Establece la altura del cuerpo al 100% de la ventana */
     display: flex;
     flex-direction: column;
+    font-family: 'Kanit'; /* Cambia la tipografía para todo el cuerpo del documento */
+    background-color: #ffffff; /* Cambia el color de fondo del cuerpo del documento */
+}
+
+/* Media query para pantallas más pequeñas, ajusta según sea necesario */
+@media (max-width: 768px) {
+    body {
+        background-color: #a8f1e8; /* Fondo diferente para pantallas más pequeñas */
+    }
+
+    /* Agrega más estilos específicos para pantallas más pequeñas si es necesario */
+}
+
+/* Media query para pantallas más pequeñas, ajusta según sea necesario */
+@media (max-width: 320px) {
+    body {
+        background-color: #f1e6a8; /* Fondo diferente para pantallas más pequeñas */
+    }
+
+    /* Agrega más estilos específicos para pantallas más pequeñas si es necesario */
 }
 
 .navbar {
-    display: flex;
     background-image: url(../assets/banner-fondo.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10px;
 }
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap   ;
     align-content: space-between;
     flex-direction: column;
     justify-content: center;
@@ -53,18 +69,14 @@ body {
     font-size: 18px;
 }
 
-.container {
-    flex-grow: 0.5; /* Ajusta la expansión del contenedor para llenar el espacio restante */
-    padding-top: 10px;
-}
-
 .navbar-toggler {
     background-color: white;
 }
 
-
-
-/* Estilos adicionales según sea necesario */
+.container {
+    flex-grow: 0.5; /* Ajusta la expansión del contenedor para llenar el espacio restante */
+    padding-top: 10px;
+}
 
 .overlay-text {
     position: absolute;
@@ -95,7 +107,6 @@ body {
     background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
 }
 
-
 .titulo-secundario{
     text-align:center;
     font-weight: 400;
@@ -106,53 +117,19 @@ body {
     background-color: #020422;
 }
 
-
-/*especialidades*/
-
-
-.galeria-especialidades { 
-    font-weight: 300px;
-    font-size: 1.25rem;
-    color: black;
-    margin: 0 40px;
-    text-align:justify;
-}
-/*Turnos*/
-
-form {
-    width: 400px;
-    margin: 50px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ul li a {
+    text-decoration: none; 
+    color: #fdfdfd; 
+    background-color: #01036d; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
+ul li a:hover {
+    color: #03dfdf; 
 }
 
-select, input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #3498db;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
+/*Pie*/
 
 footer {
     margin-top: 20px;
