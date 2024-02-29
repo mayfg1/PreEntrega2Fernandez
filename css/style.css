@@ -1,151 +1,80 @@
+/* Agrega este bloque de código en tu archivo de estilos personalizado */
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    #carouselServicios h5 {
+        font-size: 1.5rem; /* Ajusta el tamaño del texto según sea necesario */
+    }
+}
+
+/* Estilos para tablets y otros dispositivos pequeños si es necesario */
+@media (min-width: 768px) and (max-width: 991px) {
+    #carouselServicios h5 {
+        font-size: 2rem; /* Ajusta el tamaño del texto según sea necesario */
+    }
+}
+
+/* Estilos para dispositivos medianos y grandes */
+@media (min-width: 992px) {
+    #carouselServicios h5 {
+        font-size: 2.5rem; /* Ajusta el tamaño del texto según sea necesario */
+    }
+}
+
+
+
 body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Kanit'; /* Cambia la tipografía para todo el cuerpo del documento */
-    background-color: #ffffff; /* Cambia el color de fondo del cuerpo del documento */
 }
 
-/* Media query para pantallas más pequeñas, ajusta según sea necesario */
-@media (max-width: 768px) {
-    body {
-        background-color: #a8f1e8; /* Fondo diferente para pantallas más pequeñas */
-    }
-
-    /* Agrega más estilos específicos para pantallas más pequeñas si es necesario */
-}
-
-/* Media query para pantallas más pequeñas, ajusta según sea necesario */
-@media (max-width: 320px) {
-    body {
-        background-color: #f1e6a8; /* Fondo diferente para pantallas más pequeñas */
-    }
-
-    /* Agrega más estilos específicos para pantallas más pequeñas si es necesario */
-}
-
-.navbar {
-    background-image: url(../assets/banner-fondo.jpg);
+header {
+    background-image: url(../assets/banner-fondo.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
     background-size: cover;
     background-position: center;
-}
-
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
-    display: flex;
-    flex-wrap: nowrap   ;
-    align-content: space-between;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-brand {
-    color: white; /* Color del texto */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px; /* Tamaño del texto según sea necesario */
-    flex-grow: 1; /* Ajusta la expansión del contenedor para centrar el título */
-}
-
-.navbar-brand img {
-    max-width: 100px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.navbar-nav {
-    margin-top: auto; /* Coloca el menú de navegación en la parte inferior */
-}
-
-.navbar-nav li {
-    margin-right: 10px;
-}
-
-.navbar-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.navbar-toggler {
-    background-color: white;
-}
-
-.container {
-    flex-grow: 0.5; /* Ajusta la expansión del contenedor para llenar el espacio restante */
-    padding-top: 10px;
-}
-
-.overlay-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.7); /* Ajusta el nivel de opacidad según sea necesario */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.mt-3 {
-    margin-top: 7rem!important;
-}
-
-.h3, h3 {
-    font-size: 1rem;
-}
-
-.text-white {
-    font-size: 2.5rem;
-}
-
-.position-absolute p {
-    background-color: rgba(0, 0, 0, 0.7); /* Ajusta la opacidad según sea necesario */
-}
-
-.titulo-secundario{
-    text-align:center;
-    font-weight: 400;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    margin-top: 50px;
-    background-color: #020422;
-}
-
-ul li a {
-    text-decoration: none; 
-    color: #fdfdfd; 
-    background-color: #01036d; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
-}
-
-ul li a:hover {
-    color: #03dfdf; 
-}
-
-/*Pie*/
-
-footer {
-    margin-top: 20px;
-    background-color: #020422;
-    color: #fff; 
-    padding: 20px;
+    color: #fff;
+    padding: 50px 0; /* Ajusta el padding para controlar la altura del header */
     text-align: center;
 }
 
-.redes-sociales a {
-    color: #fff; 
-    text-decoration: none;
-    font-size: 24px;
-    margin-right: 10px; 
-    position: relative; 
-    margin-left: 20px;
+h1 {
+    font-size: 3em; /* Ajusta el tamaño de la fuente del título */
 }
 
+nav {
+    background: linear-gradient(to right, #00c3ff, #000a63); /* Fondo azul degradado */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.highlighted-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
 
