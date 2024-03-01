@@ -1,7 +1,5 @@
-/* Agrega este bloque de código en tu archivo de estilos personalizado */
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
+<style>
+    @media (max-width: 767px) {
     #carouselServicios h5 {
         font-size: 1.5rem; /* Ajusta el tamaño del texto según sea necesario */
     }
@@ -77,4 +75,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-

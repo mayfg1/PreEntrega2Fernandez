@@ -9,7 +9,7 @@
     <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Google fonts -->
@@ -17,14 +17,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     
-    <!-- CCS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap JS Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <h1>Centro Medico HealtHouse</h1>
+        <h1>Especialidades</h1>
     </header>
 
     <!-- Bootstrap 5 Navbar -->
@@ -49,79 +52,97 @@
         </div>
     </nav>
 
+    <!-- Contenido de la página -->
     <div class="container mt-4">
-        <section id="home" class="row justify-content-center">
+        <!-- Dentro de la sección de "Destacados" -->
+        <section id="destacados" class="row justify-content-center mt-4">
             <div class="col-md-8 highlighted-section text-center">
-                <h2>Bienvenido a HealtHouse</h2>
-                <p class="mt-3">En nuestro centro, nos enorgullece ofrecer servicios médicos excepcionales respaldados por un equipo de profesionales comprometidos y apasionados.
-                    Nuestra misión es proporcionar atención médica integral y personalizada que se adapte a las necesidades únicas de cada paciente. Desde consultas médicas hasta tratamientos especializados, estamos aquí para guiarlo en cada paso de su viaje hacia el bienestar.
-                    Confíe en nosotros para su atención médica. Estamos aquí para cuidar de usted y de sus seres queridos.</p>
-                    <div class="embed-responsive embed-responsive-16by9" style="height: 50vh;">
-                        <iframe class="embed-responsive-item w-100 h-100" src="https://www.youtube.com/embed/_JDOGSkVMNY?si=O8uRoZOdH3wOBYw3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h2>Nuestra Especialidades</h2>
+                <p class="mt-3">Trajimos los mejores médicos y la mejor tecnología para poder darte un servicio de primer nivel.</p>
+                <section id="destacados" class="row justify-content-center mt-4">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Cardiologia</h5>
+                                <p class="card-text">Contamos con médicos cardiólogos para atender consultas y realizar estudios de rutina.</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Clinica Medica</h5>
+                                <p class="card-text">Atención clínica médica todos los días. Podes sacar turno o presentarte directamente en nuestro centro de atención</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Dermatologia</h5>
+                                <p class="card-text">En HealtHouse contamos con consultas dermatológicas tanto en adultos como en la población infantil.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Endocrinologia</h5>
+                                <p class="card-text">Atención, diagnóstico y tratamiento de trastornos hormonales</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Gastroenterologia</h5>
+                                <p class="card-text">Nos especializamos en el cuidado integral de tu sistema digestivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ginecologia</h5>
+                                <p class="card-text">Brindamos atención médica especializada a mujeres en todas las etapas de su vida.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Neurologia</h5>
+                                <p class="card-text">Somos especialistas en atención de trastornos neurológicos y enfermedades del sistema nervioso.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pediatria</h5>
+                                <p class="card-text">En nuestro centro médico contamos con atención médica pediatrica. Solicita tu turno en nuestra plataforma.</p>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Traumatologia</h5>
+                                <p class="card-text">Contamos con un equipo de profesionales capacitados y tecnología de última generación en Traumatología.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div>
+                    <h2></h2>
+                    <a href="./turnos.html" class="btn btn-primary">Solicita un Turno</a>
+                </div>
             </div>
         </section>
-<!-- Dentro de la sección de "Servicios Destacados" -->
-<section id="servicios" class="row justify-content-center mt-4">
-    <div class="col-md-8 highlighted-section text-center">
-        <h2>Servicios Destacados</h2>
-        <!-- Carrusel de Servicios Destacados -->
-        <div id="carouselServicios" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <!-- Imagen de Consulta Médica -->
-                <div class="carousel-item active">
-                    <img src="../assets/Consulta.jpg" class="d-block w-100" alt="Consulta Médica">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Consulta Médica</h5>
-                        <!-- Puedes agregar un texto descriptivo si lo deseas -->
-                    </div>
-                </div>
-
-                <!-- Imagen de Rayos X -->
-                <div class="carousel-item">
-                    <img src="../assets/Imagenes.jpg" class="d-block w-100" alt="Rayos X">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Imágenes de Rayos X</h5>
-                        <!-- Puedes agregar un texto descriptivo si lo deseas -->
-                    </div>
-                </div>
-
-                <!-- Imagen de Laboratorio -->
-                <div class="carousel-item">
-                    <img src="../assets/Lab.jpg" class="d-block w-100" alt="Laboratorio">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Laboratorio</h5>
-                        <!-- Puedes agregar un texto descriptivo si lo deseas -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Controles del Carrusel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicios" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselServicios" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-
     </div>
-</section>
 
-            </div>
-        </section>
-
-        <section id="especialidades" class="row justify-content-center mt-4">
-            <div class="col-md-8 highlighted-section text-center">
-                <h2>Especialidades Destacadas</h2>
-                <!-- Lista de especialidades destacadas -->
-            </div>
-        </section>
-    </div>
-
-    <footer class="bg-dark text-white text-center py-3 mt-4">
+    <!-- Pie de página -->
+   <footer class="bg-dark text-white text-center py-3 mt-4">
         <p>&copy; 2024 Centro Medico Healthouse. Todos los derechos reservados.</p>
         <p>Síguenos en nuestras redes</p>
         <div class="redes-sociales">
@@ -129,12 +150,13 @@
             <span>Facebook</span>
             <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
             <span>Instagram</span>
-        </div>    </footer>
+        </div>    
+    </footer>
 
-    <!-- Bootstrap 5 JS (Añadido para el funcionamiento del Navbar) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
 
 </body>
 
