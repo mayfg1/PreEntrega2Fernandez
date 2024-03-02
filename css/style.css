@@ -92,7 +92,11 @@ border-color: #007bff;
 .btn-primary:hover {
   background-color: #010f5e;
   border-color: #010f5e;
+  transform: scale(1.1); /* Ajusta el valor según tus preferencias */
+  transition: transform 0.3s ease; /* Ajusta la duración y el tipo de transición según tus preferencias */
 }
+
+
 
 iframe {
   width: 100%;
