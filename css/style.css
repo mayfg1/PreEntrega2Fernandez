@@ -23,17 +23,16 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0f081;
     margin: 0;
     padding: 0;
-    background-image: url('../assets/l'); /* Ruta de tu imagen de fondo */
-    background-repeat: repeat; /* Esta propiedad hace que la imagen se repita horizontal y verticalmente */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-position: center center; /* Centra la imagen en el fondo */
+    background-image: url('../assets/logo3.png'); 
+    background-repeat: repeat; 
+    background-position: center center ; 
 }
 
 header {
-    background-image: url(../assets/banner-fondo.jpg); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-image: url(../assets/banner-fondo.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -71,6 +70,59 @@ video {
     border-radius: 10px;
 }
 
+/* Estilo personalizado para las tarjetas */
+.custom-card-1 {
+    background-color: #4aa1db; /* Color azul personalizado */
+    color: #fff; /* Texto blanco para mayor legibilidad */
+}
+
+.custom-card-2 {
+    background-color: #88b1cc; /* Color verde personalizado */
+    color: #fff;
+}
+
+.custom-card-3 {
+    background-color: #5bdee7; /* Color naranja personalizado */
+    color: #fff;
+}
+
+/*Turnos*/
+
+form {
+    width: 400px;
+    margin: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select, input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Pie*/
+
 footer {
     background-color: #333;
     color: #fff;
@@ -79,3 +131,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
