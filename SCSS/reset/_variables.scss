@@ -9,3 +9,13 @@ $background-image: url('../assets/logo3.png');
 $banner-image: url(../assets/banner-fondo.jpg);
 $size-textosecundario: 1.2rem;
 $color-textosecundario: #6c757d;
+
+//map-get
+
+$size-titulo:(
+    titulo1: 2rem,
+    titulo2: 1.5rem,
+    titulo3: 1.2rem,
+    titulo4: 1rem,
+
+);

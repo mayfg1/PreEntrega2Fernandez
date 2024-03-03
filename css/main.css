@@ -254,7 +254,7 @@ button {
 /*MEDIA QUERYS*/
 @media (max-width: 600px) {
   header h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .highlighted-section {
     background-color: #7cbbff;
@@ -294,6 +294,18 @@ button {
   }
   #especialidades p {
     color: #ffffff;
+  }
+  .text-start {
+    text-align: start;
+  }
+  .text-start h4 {
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .text-start p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 0.8rem;
   }
 }
 .pie {

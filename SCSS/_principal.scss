@@ -47,7 +47,7 @@ nav {
 #Ubicacion {
     @include mas-usados (flex,center,2rem);
     p {
-        font-size: 1.2rem;
+        font-size: map-get($size-titulo, titulo3);
         color: $color-textosecundario;
       }
   }
@@ -88,7 +88,7 @@ nav {
     p {
         color: $color-textosecundario;
         text-align: left;
-        font-size: 1.2rem;
+        font-size: map-get($size-titulo, titulo3);
       }
 }
 
@@ -157,16 +157,16 @@ button {
 /*MEDIA QUERYS*/
 @media (max-width: 600px) {
     header h1 {
-        font-size: 1.5em;
+        font-size: map-get($size-titulo, titulo2);
     }
     .highlighted-section {
         background-color: #7cbbff;
         h2 {
-            font-size: 1rem;
+            font-size: map-get($size-titulo, titulo4);
             margin-bottom: 1rem;
           }
         .mt-3 {
-            font-size: 1rem;
+            font-size: map-get($size-titulo, titulo4);
             color: $color-fondo; 
           }
     }
@@ -197,4 +197,17 @@ button {
             color: $color-fondo;
           }
       }
+      .text-start {
+        text-align: start; 
+        h4 {
+            text-align: left;
+            font-size: 0.8rem;
+          }
+        p {
+            color: $color-fondo;
+            text-align: left;
+            font-size: 0.8rem;
+          }
+        
+    }
 }
