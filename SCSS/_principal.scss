@@ -22,8 +22,7 @@ nav {
 }
 
 #home {
-    display: flex;
-    justify-content: $alineacion;
+    @include mas-usados (flex,center,2rem);
     .embed-responsive {
         position: relative;
         display: block;
@@ -38,9 +37,7 @@ nav {
   }
    
 #destacados {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+ @include mas-usados (flex,center,2rem);
   &.card-img-top {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
@@ -48,9 +45,7 @@ nav {
 }
 
 #Ubicacion {
-    display: flex;
-    justify-content: $alineacion;
-    margin-top: 4rem;
+    @include mas-usados (flex,center,2rem);
     p {
         font-size: 1.2rem;
         color: $color-textosecundario;
@@ -58,8 +53,7 @@ nav {
   }
 
 #Seccion-servicio {
-    display: flex;
-    justify-content: $alineacion;
+    @include mas-usados (flex,center,2rem);
     .card-img-top {
         width: 100%; 
         height: auto; 
@@ -99,7 +93,7 @@ nav {
 }
 
 #especialidades {
-    justify-content: $alineacion;
+    @include mas-usados (flex,center,2rem);
     .card {
         border: 1px solid $color-fondo;; 
         border-radius: 10px; 
@@ -158,4 +152,49 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*MEDIA QUERYS*/
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    .highlighted-section {
+        background-color: #7cbbff;
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+          }
+        .mt-3 {
+            font-size: 1rem;
+            color: $color-fondo; 
+          }
+    }
+
+    #especialidades {
+        @include mas-usados (flex,center,1rem);
+        .card {
+            border: 1px solid $color-fondo;; 
+            border-radius: 10px; 
+            overflow: hidden; 
+            &-body {
+                padding: 20px; 
+            }
+        }
+        .custom-card-1 {
+            background-color: #4fdbcf; 
+            color: $color-fondo; 
+        }
+        .custom-card-2 {
+            background-color: #0e408b; 
+            color: $color-fondo; 
+        }
+        .custom-card-3 {
+            background-color: #9bb9d4;
+            color: $color-fondo; 
+        }
+        p {
+            color: $color-fondo;
+          }
+      }
 }

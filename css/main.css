@@ -111,6 +111,7 @@ nav-link:hover {
 #home {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 #home .embed-responsive {
   position: relative;
@@ -137,7 +138,7 @@ nav-link:hover {
 #Ubicacion {
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 #Ubicacion p {
   font-size: 1.2rem;
@@ -147,6 +148,7 @@ nav-link:hover {
 #Seccion-servicio {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 #Seccion-servicio .card-img-top {
   width: 100%;
@@ -186,7 +188,9 @@ nav-link:hover {
 }
 
 #especialidades {
+  display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 #especialidades .card {
   border: 1px solid #ffffff;
@@ -247,6 +251,51 @@ button {
   cursor: pointer;
 }
 
+/*MEDIA QUERYS*/
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+  .highlighted-section {
+    background-color: #7cbbff;
+  }
+  .highlighted-section h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .highlighted-section .mt-3 {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  #especialidades {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  #especialidades .card {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #especialidades .card-body {
+    padding: 20px;
+  }
+  #especialidades .custom-card-1 {
+    background-color: #4fdbcf;
+    color: #ffffff;
+  }
+  #especialidades .custom-card-2 {
+    background-color: #0e408b;
+    color: #ffffff;
+  }
+  #especialidades .custom-card-3 {
+    background-color: #9bb9d4;
+    color: #ffffff;
+  }
+  #especialidades p {
+    color: #ffffff;
+  }
+}
 .pie {
   color: #ffffff;
   text-align: center;
