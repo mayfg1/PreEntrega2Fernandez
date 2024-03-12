@@ -104,6 +104,10 @@ nav-link:hover {
   color: #020a4e;
 }
 
+.navbar-nav a {
+  color: white;
+}
+
 .navbar-toggler {
   border-color: #ffffff;
 }

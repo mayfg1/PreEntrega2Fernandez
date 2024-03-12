@@ -20,7 +20,9 @@ nav {
 .navbar-toggler {
     border-color: $color-fondo;
 }
-
+.navbar-nav a {
+    color: $color-fondo;
+}
 #home {
     @include mas-usados (flex,center,2rem);
     .embed-responsive {
